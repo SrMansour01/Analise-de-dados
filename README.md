@@ -6,6 +6,7 @@
 📝 **Enunciado:** Defina e explique com suas próprias palavras:
 
 1. O que são medidas de tendência central? Dê exemplos.
+
 R: As medidas de tendência central, como média e mediana, desempenham um papel fundamental nos seguintes contextos:
 
 - Normalização de Dados: Para treinar redes neurais de forma eficiente, é prática comum centralizar os dados em torno da média (ou mediana) e escalá-los, garantindo uma variância uniforme. Isso acelera o treinamento e melhora a performance do modelo.
@@ -15,6 +16,7 @@ R: As medidas de tendência central, como média e mediana, desempenham um papel
 Exemplo prático: Em modelos de classificação de imagens, normalizar os dados de entrada ajuda a evitar gradientes excessivamente grandes ou pequenos, que podem dificultar a retropropagação.
 
 2. Qual a diferença entre variância e desvio padrão?
+
 R:
 - Controle de Overfitting e Regularização: Dados com alta variância podem sinalizar a necessidade de técnicas como dropout para evitar overfitting nas redes neurais.
 
@@ -23,6 +25,7 @@ R:
 Além disso, acompanhar o desvio padrão dos erros da função de custo durante o treinamento ajuda a avaliar a convergência do modelo.
 
 3. Explique o conceito de outliers e cite dois métodos para identificá-los
+
 R: Os outliers podem impactar negativamente o desempenho das redes neurais porque:
 
 - Distorção no Aprendizado: Eles prejudicam a identificação de padrões gerais e podem aumentar o erro do modelo.
@@ -42,12 +45,14 @@ Estratégias para lidar com outliers:
 📝 **Enunciado:** Após executar as análises:
 
 1. Descreva o que você observa no histograma e no boxplot. Há outliers?
+
 R: Sim, há outliers em todas as variáveis, representados pelos pontos fora dos limites das caixas.
 
 - Distribuição dos Dados: As variáveis parecem normalizadas ou padronizadas, situando-se no intervalo de 0 a 1. As medianas estão bem posicionadas, sugerindo diferentes distribuições.
 
 - Assimetria e Dispersão: Variáveis como Salário e Horas de Trabalho Semanal apresentam dispersão elevada, indicando distribuições assimétricas. A variável Experiência tem alta variabilidade, mostrando perfis variados no conjunto de dados.
 2. O que a matriz de correlação indica sobre a relação entre as variáveis?
+
 R: A matriz de correlação reflete o grau de associação entre as variáveis, possibilitando as seguintes análises:
 
 - Idade vs. Experiência: É esperada uma correlação positiva, pois idade normalmente implica maior experiência.
