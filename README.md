@@ -1,5 +1,39 @@
 # 📊 Atividade Avaliativa – Estatística Descritiva e Análise Exploratória de Dados (EDA)
 
+# Execução do Código
+
+Este projeto utiliza bibliotecas populares do Python para manipulação de dados, visualização e pré-processamento. Siga as etapas abaixo para configurar o ambiente e executar o código.
+
+## Pré-requisitos
+
+Certifique-se de ter o Python instalado em sua máquina (recomenda-se a versão 3.7 ou superior). Você também precisará instalar as bibliotecas necessárias:
+
+- `pandas`
+- `matplotlib`
+- `seaborn`
+- `scikit-learn`
+- `numpy`
+
+### Instalando o Python
+
+Se você não tiver o Python instalado, baixe e instale a partir do site oficial: [https://www.python.org/](https://www.python.org/).
+
+## Instalando as Dependências
+
+Recomenda-se o uso de um ambiente virtual para gerenciar as dependências do projeto. Você pode criar e ativar um ambiente virtual com os comandos abaixo:
+
+```bash
+# Criar ambiente virtual
+python -m venv venv
+
+# Ativar o ambiente virtual
+# Windows
+venv\Scripts\activate
+# macOS/Linux
+source venv/bin/activate
+
+```
+
 ## **📍 Questão 1 – Conceitos Fundamentais (2 pontos)**
 📌 **Objetivo:** Verificar a compreensão teórica da Estatística Descritiva e EDA.
 
