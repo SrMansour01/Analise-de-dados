@@ -6,7 +6,7 @@ from sklearn.preprocessing import MinMaxScaler
 import numpy as np
 
 # Carregando a planilha
-df = pd.read_csv("date/datasheet.csv")
+df = pd.read_csv("datasheet.csv")
 
 # Exibindo as primeiras linhas do DataFrame para análise inicial
 print(df.head())
